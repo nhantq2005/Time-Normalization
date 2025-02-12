@@ -1,0 +1,10 @@
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\bin\Debug\ChuanHoaThoiGian.exe.config
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\bin\Debug\ChuanHoaThoiGian.exe
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\bin\Debug\ChuanHoaThoiGian.pdb
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.csproj.AssemblyReference.cache
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.Form1.resources
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.Properties.Resources.resources
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.csproj.GenerateResource.cache
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.csproj.CoreCompileInputs.cache
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.exe
+D:\C_SHARP_PROJECT\ChuanHoaThoiGian\obj\Debug\ChuanHoaThoiGian.pdb
