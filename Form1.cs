@@ -66,12 +66,37 @@ namespace ChuanHoaThoiGian
 
         private void showButton_Click(object sender, EventArgs e)
         {
-            ThoiGian t = new ThoiGian(
-                int.Parse(inputHour.Text),
-                int.Parse(inputMinute.Text),
-                int.Parse(inputSecond.Text)
-                );
-            outputTime.Text=t.hienThi();
+            try
+            {
+                ThoiGian t = new ThoiGian(
+                                int.Parse(inputHour.Text),
+                                int.Parse(inputMinute.Text),
+                                int.Parse(inputSecond.Text)
+                                );
+                if(int.Parse(inputHour.Text)<0|| int.Parse(inputMinute.Text)<0|| int.Parse(inputSecond.Text) < 0)
+                {
+                    MessageBox.Show("Bạn không được nhập số âm!");
+                }
+                else
+                {
+                    outputTime.Text = t.hienThi();
+                }
+               
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Bạn phải nhập số vào ô");
+            }
+            
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(MessageBox.Show("Bạn muốn đóng?","Xác nhận",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No) { 
+                e.Cancel = true;
+            }
         }
     }
 }
